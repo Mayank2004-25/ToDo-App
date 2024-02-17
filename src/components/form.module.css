@@ -33,3 +33,15 @@
 .inputContainer {
   display: flex;
 }
+
+@media screen and (max-width: 600px) {
+  .todoform {
+    width: 90%; /* Adjust width for smaller screens */
+    margin-top: 20px; /* Adjust margin for smaller screens */
+  }
+
+  .modernButton {
+    width: 100%; /* Make the button full-width on smaller screens */
+    margin-top: 10px; /* Adjust spacing for smaller screens */
+  }
+}

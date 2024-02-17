@@ -7,3 +7,12 @@
   padding: 20px;
   margin-top: 50px;
 }
+
+/* Media query for screens smaller than 600 pixels (typical for mobile devices) */
+@media screen and (max-width: 600px) {
+  .list {
+    width: 90%; /* Adjust width for smaller screens */
+    margin-top: 20px; /* Adjust margin for smaller screens */
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+}

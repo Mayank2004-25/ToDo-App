@@ -12,8 +12,12 @@
 .item {
   margin: 50px;
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 600px) {
+  .footer {
+    font-size: 1.2em;
+  }
+
   .item {
-    margin: 20px; /* Adjust the margin for smaller screens */
+    margin: 20px;
   }
 }

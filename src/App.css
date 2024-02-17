@@ -2,3 +2,8 @@ body {
   margin: 0;
   font-family: sans-serif;
 }
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+}
